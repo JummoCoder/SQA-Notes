@@ -1,0 +1,36 @@
+What is Test Plan?
+---------
+A Test Plan can be viewed as a container for running tests. It
+defines what to test and how to go about it. A complete test
+plan consists of one or more elements such as thread
+groups, logic controllers, sample-generating controllers,
+listeners, timers, assertions, and configuration elements. A
+test plan must have at least one thread group.
+
+What is Test Group?
+--------
+Thread Groups is a collection of Threads. Each thread represents one
+user using the application under test. Basically, each Thread simulates
+one real user request to the server. The controls for a thread group
+allow you to Set the number of threads for each group.
+
+Samplers?
+--------
+Samplers in JMeter are added as a child of Thread Groups. These are
+used to send different types of requests to the server. Once, the
+sampler request is processed by the server, its response is returned to
+JMeter and the same can be viewed and analyzed in terms of different
+performance parameters like response time, Hits per second,
+throughput, etc.
+Different Types of Samplers
+Let’s now see the different types of Sampler provided by JMeter. Some
+of the most widely used Sampler in JMeter is-
+• HTTP Request – Used to send HTTP/HTTPS requests to server. This
+is the most widely used sampler for testing Web-based applications.
+• JDBC Request – Used to send SQL queries to a database server.
+• SOAP/XML-RPC Request – Used to send SOAP requests to a SOAP
+web service.
+• Test Action – This is a special type of Sampler, which doesn’t send a
+request to the server instead it is used to introduce pauses in a test.
+• FTP Request – Used to send file put and get requests to an FTP
+server.
