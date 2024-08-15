@@ -1,0 +1,5 @@
+Apache Jmeter is an apache project that can be usead as a load testing tool for analyzing and measuring the performance of a variety of services with a focus on web application.
+What is Test Plan?
+--------------------
+A Test Plan can be viewed as a container for running tests. It defines what to test and how to go about it. A complete test plan consists of one or more elements such as thread groups, logic controllers, sample-generating controllers,
+listeners, timers, assertions, and configuration elements. A test plan must have at least one thread group
